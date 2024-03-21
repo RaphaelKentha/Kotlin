@@ -23,5 +23,28 @@
      dog2.bark()
      dog2.sayHi("Maria")
      // repetindo o processo, mas com um cachorro diferente
+
+     //val cat = Cat("Miau", 2)
+
+     //val cat2 = Cat(owner = "Marira")
+     //a linha acima nao funciona, pois o dono do gato nao é uma string, nao mais
+     //o dono do gato é um objeto da classe Human
+     val raphael = Human()
+     raphael.name = "Raphael"
+     val cat2 = Cat(raphael)
+     cat2.nome = "Mic"
+     cat2.idade = 2
+     cat2.meow()
+
+     val kenthara = Human()
+        kenthara.name = "Kenthara"
+        val cat3 = Cat(kenthara)
+        cat3.nome = "Miau"
+        cat3.idade = 3
+        cat3.meow()
+     kenthara.sayHi()
+     // note que owner é um objeto da classe Human, e nao mais uma string
+     // entao o cat2 e o cat3 tem um dono, que é um objeto da classe Human
+     // mais ambos poderiam ser o mesmo dono, ou donos diferentes
  }
- //tempo de video 35:15
+ //tempo de video
