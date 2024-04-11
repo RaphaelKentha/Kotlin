@@ -46,5 +46,15 @@
      // note que owner é um objeto da classe Human, e nao mais uma string
      // entao o cat2 e o cat3 tem um dono, que é um objeto da classe Human
      // mais ambos poderiam ser o mesmo dono, ou donos diferentes
+
+     // Criação de uma instância da classe Carro
+     val carro = Carro()
+     // Definindo a cor do carro
+     carro.cor = "Vermelho"
+     // Chamando os métodos da classe Carro
+     carro.anda()
+     carro.buzina()
+     carro.frei()
+     carro.partida()
+
  }
- //tempo de video
