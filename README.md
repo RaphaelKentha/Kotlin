@@ -1,2 +1,2 @@
 # Kotlin
-Repositorio para aprender kotlin
+Repositorio para aprender kotlin.
